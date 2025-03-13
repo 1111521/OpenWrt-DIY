@@ -1,6 +1,5 @@
  payload:
    # > Talkatone 
-   - DOMAIN-KEYWORD,googleads,REJECT-DROP
    - DOMAIN-SUFFIX,tktn.at
    - DOMAIN-SUFFIX,tktn.be
    - DOMAIN-SUFFIX,vm.talkatone.com
@@ -14,12 +13,13 @@
    - DOMAIN-SUFFIX,kochava.com
    - DOMAIN-SUFFIX,mobilefuse.com
    - DOMAIN-SUFFIX,talkatone.com
+   - DOMAIN-KEYWORD,googleads,REJECT-DROP
 
-   - IP-CIDR,205.164.56.0/24,DIRECT,no-resolve
-   - IP-CIDR,216.172.154.0/24,DIRECT,no-resolve
-   - IP-CIDR,50.117.27.0/24,DIRECT,no-resolve
-   - IP-CIDR,63.251.124.0/24,DIRECT,no-resolve
-   - IP-CIDR,69.46.75.0/24,DIRECT,no-resolve
+   - IP-CIDR,205.164.56.0/24
+   - IP-CIDR,216.172.154.0/24
+   - IP-CIDR,50.117.27.0/24
+   - IP-CIDR,63.251.124.0/24
+   - IP-CIDR,69.46.75.0/24
 
 
 
