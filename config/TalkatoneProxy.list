@@ -1,7 +1,7 @@
  payload:
    # > Talkatone 
    - DOMAIN-KEYWORD,googleads,REJECT-DROP
-   - DOMAIN-SUFFIX,tktn.at,DIRECT
+   - DOMAIN-SUFFIX,tktn.at,PROXY
    - DOMAIN-SUFFIX,tktn.be,PROXY
    - DOMAIN-SUFFIX,vm.talkatone.com,PROXY
    - DOMAIN-SUFFIX,agkn.com,DIRECT
